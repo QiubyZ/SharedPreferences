@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:gravity="center">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Pendaftatan User Baru"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:background="#FF0F00"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:ems="10"
+		android:layout_height="wrap_content"
+		android:id="@+id/pendaftaranEditText1"
+		android:hint="username"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:inputType="textPassword"
+		android:layout_height="wrap_content"
+		android:ems="10"
+		android:id="@+id/pendaftaranEditText2"
+		android:hint="password"/>
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Daftar"
+		android:id="@+id/pendaftaranButton1"/>
+
+</LinearLayout>
+
